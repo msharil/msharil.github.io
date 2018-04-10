@@ -28,7 +28,7 @@ $("#frmMN").submit( function( event ) {
 
 		str += '<b>Nama: </b>' + name.toUpperCase() + ' <br>';
 		str += '<b>Berat: </b>' + weight + 'kg <br>';
-		str += '<h2><span class="badge badge-secondary">MN ' + mn + '</span></h2> <br>';
+		str += '<h2><span class="badge badge-secondary">MN ' + mn + '</span></h2>';
 
 		str += '<table class="table table-border table-striped">';
 
