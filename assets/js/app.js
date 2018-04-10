@@ -35,7 +35,8 @@ $("#frmMN").submit( function( event ) {
 
 		str += '<b>Nama: </b>' + name.toUpperCase() + ' <br>';
 		str += '<b>Berat: </b>' + weight + 'kg <br>';
-		str += '<b>Magic Number: </b>' + mn + ' <br>';
+		str += '<h2><span class="badge badge-secondary">MN ' + mn + '</span></h2> <br>';
+
 		str += '<table class="table table-border table-striped">';
 
 		str += '<tr>';
@@ -61,6 +62,9 @@ $("#frmMN").submit( function( event ) {
 		// str += '<p><b>Lemak Baik: </b>' + F +' kcal => ' + gF.toFixed(2) + 'g </p>';
 
 		str += '</table>';
+
+		str += '<hr>';
+
 		//alert('<p>Protein: ' + P + ' => ' + gP + 'g </p>');
 		$('#result').html(str);
 	}
