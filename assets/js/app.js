@@ -33,26 +33,26 @@ $("#frmMN").submit( function( event ) {
 		//alert(' '+ name + ' ' + weight +'kg  MN' + mn);	
 		var str = '';
 
-		str += '<b>Nama: </b>' + name + ' <br>';
+		str += '<b>Nama: </b>' + name.toUpperCase() + ' <br>';
 		str += '<b>Berat: </b>' + weight + 'kg <br>';
 		str += '<b>Magic Number: </b>' + mn + ' <br>';
 		str += '<table class="table table-border table-striped">';
 
 		str += '<tr>';
 		str += '<th scope="row">Protein</th>';
-		str += '<td>'+ P +' kcal</td>';
+		str += '<td>'+ P.toFixed(2) +' kcal</td>';
 		str += '<td>'+ gP.toFixed(2) +' gram</td>';
 		str += '</tr>';
 
 		str += '<tr>';
 		str += '<th scope="row">Karbohidrat</th>';
-		str += '<td>'+ C +' kcal</td>';
+		str += '<td>'+ C.toFixed(2) +' kcal</td>';
 		str += '<td>'+ gC.toFixed(2) +' gram</td>';
 		str += '</tr>';
 
 		str += '<tr>';
 		str += '<th scope="row">Lemak Baik</th>';
-		str += '<td>'+ F +' kcal</td>';
+		str += '<td>'+ F.toFixed(2) +' kcal</td>';
 		str += '<td>'+ gF.toFixed(2) +' gram</td>';
 		str += '</tr>';
 
