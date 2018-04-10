@@ -22,38 +22,77 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/pulse/bootstrap.min.css" rel="stylesheet" integrity="sha384-s4gnxO2aVdL1Yod+BZDOlk2050aVqe/OPfWcWp9EeSihsgc6exzYVQiPoiOfr3Qp" crossorigin="anonymous">
+
 
   </head>
 
-  <body id="page-top">
 
-    <h2>Mengira Magic Number</h2>
-    <form method="post" id="frmMN">
-        <table>
-            <tr>
-                <td>Nama</td>
-                <td><input type="text" name="txtName" id="txtName" placeholder="Name" autofocus="" autocomplete="off"></td>
-            </tr>
-            <tr>
-                <td>Berat (kg)</td>
-                <td><input type="text" name="txtKg" id="txtKg" placeholder="Berat (kg)"></td>
-            </tr>
-            <tr>
-                <td>Fat Loss</td>
-                <td><input type="text" name="txtFatLoss" id="txtFatLoss" placeholder="Fat Loss"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><button type="submit" name="btnCount" id="btnCount">Kira</button></td>
-            </tr>        
-        </table>
-    </form>
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script> 
-  <script type="text/javascript" src="assets/js/app.js"></script>
+  <body>
+
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-sm">
+
+                <h2>Mengira Magic Number</h2>
+                <form method="post" id="frmMN">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td><input type="text" name="txtName" id="txtName" placeholder="Name" autofocus="" autocomplete="off"></td>
+                        </tr>
+                        <tr>
+                            <td>Berat (kg)</td>
+                            <td><input type="text" name="txtKg" id="txtKg" placeholder="Berat (kg)"></td>
+                        </tr>
+                        <tr>
+                            <td>Fat Loss</td>
+                            <td><input type="text" name="txtFatLoss" id="txtFatLoss" placeholder="Fat Loss"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit" name="btnCount" id="btnCount" class="btn btn-primary">Kira MN</button></td>
+                        </tr>        
+                    </table>
+                </form>
+
+            </div> 
+
+            <div class="col-sm">
+
+                <h3>Kadar Asas Macros</h3>
+                <table class="table table-striped">
+                    <tr>
+                        <th scope="row">Protein</th>
+                        <td class="right">4 kcal</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Carbs</th>
+                        <td>4 kcal</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fat</th>
+                        <td>9 kcal</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="col-sm"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
       
