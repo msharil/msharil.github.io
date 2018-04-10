@@ -36,7 +36,8 @@
         
         <div class="row">
             
-            <div class="col-sm">
+            <div class="col">
+
 
                 <h2>Mengira Magic Number</h2>
                 <form id="frmMN" method="post">
@@ -52,14 +53,19 @@
                     <label for="txtFatLoss">Fat Loss</label>
                     <input type="text" maxlength="5" class="form-control" id="txtFatLoss" placeholder="Fat Loss">
                   </div>
-                  <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnCntMN">Kira MN</button>
+                  <button type="reset" class="btn btn-danger btn-lg">Reset</button>
+                  <button type="submit" class="btn btn-primary btn-lg" id="btnCntMN">Kira MN</button>
                 </form>                
-                
+
                 <div class="clearfix"></div>
 
-            </div> 
+                <p>&nbsp;</p>
 
-            <div class="col-sm">
+                <div id="result"></div>
+
+            </div>
+
+            <div class="col">
 
                 <h3>Kadar Asas Macros</h3>
                 <table class="table table-striped">
