@@ -8,5 +8,5 @@ $("#frmMN").submit( function( event ) {
 	var mn = $("#txtFatLoss").val();
 	
 
-	alert('Button submitted! '+ name + ' ' + weight +'kg <br> MN' + mn);
+	alert('Button submitted! '+ name + ' ' + weight +'kg  MN' + mn);
 });
