@@ -13,24 +13,17 @@ $("#frmMN").submit( function( event ) {
 	} else {
 
 		// kira Protein
-		// P = MN x 40%
-		// gP = P / 4
 		var P = mn*0.4
 		var gP = parseFloat(P)/4
 
 		// kira Carbs
-		// C = MN x 30%
-		// gC = C / 4
 		var C = mn*0.3
 		var gC = parseFloat(C)/4
 
 		// kira Fat
-		// F = MN x 30%
-		// gF = F / 9
 		var F = mn*0.3
 		var gF = parseFloat(F)/9
 
-		//alert(' '+ name + ' ' + weight +'kg  MN' + mn);	
 		var str = '';
 
 		str += '<b>Nama: </b>' + name.toUpperCase() + ' <br>';
