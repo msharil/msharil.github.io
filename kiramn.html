@@ -39,26 +39,23 @@
             <div class="col-sm">
 
                 <h2>Mengira Magic Number</h2>
-                <form method="post" id="frmMN">
-                    <table>
-                        <tr>
-                            <td>Nama</td>
-                            <td><input type="text" name="txtName" id="txtName" placeholder="Name" autofocus="" autocomplete="off"></td>
-                        </tr>
-                        <tr>
-                            <td>Berat (kg)</td>
-                            <td><input type="text" name="txtKg" id="txtKg" placeholder="Berat (kg)"></td>
-                        </tr>
-                        <tr>
-                            <td>Fat Loss</td>
-                            <td><input type="text" name="txtFatLoss" id="txtFatLoss" placeholder="Fat Loss"></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button type="submit" name="btnCount" id="btnCount" class="btn btn-primary">Kira MN</button></td>
-                        </tr>        
-                    </table>
-                </form>
+                <form id="frmMN" method="post">
+                  <div class="form-group">
+                    <label for="txtName">Nama</label>
+                    <input type="text" class="form-control" id="txtName" name="txtName" aria-describedby="nameHelp" placeholder="Enter name">
+                  </div>
+                  <div class="form-group">
+                    <label for="txtWeight">Berat (kg)</label>
+                    <input type="text" maxlength="5" class="form-control" id="txtWeight" placeholder="Berat (kg)">
+                  </div>
+                  <div class="form-group">
+                    <label for="txtFatLoss">Fat Loss</label>
+                    <input type="text" maxlength="5" class="form-control" id="txtFatLoss" placeholder="Fat Loss">
+                  </div>
+                  <button type="submit" class="btn btn-primary" id="btnCntMN">Kira MN</button>
+                </form>                
+                
+                <div class="clearfix"></div>
 
             </div> 
 
@@ -94,8 +91,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-      
-  </script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
   </body>
 </html>

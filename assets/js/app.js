@@ -4,7 +4,7 @@ $("#frmMN").submit( function( event ) {
 	event.preventDefault();
 
 	var name = $("#txtName").val();
-	var weight = $("#txtKg").val();
+	var weight = $("#txtWeight").val();
 	var mn = $("#txtFatLoss").val();
 	
 
